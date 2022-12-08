@@ -1,0 +1,39 @@
+/*Reseting default css*/
+
+*:before, *:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font: inherit;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li{
+	margin: 0;
+    padding: 0;
+}
+
+/*Custom css*/
+
+:root {
+    --font-familly-poppins: font-family: 'Poppins', sans-serif;
+    --font-family-open-sans: font-family: 'Open Sans', sans-serif;
+    --primary-color-violet: hsl(257, 40%, 49%);
+    --primary-color-soft-magenta: hsl(300, 69%, 71%);
+    --desktop-h1-font-size: 2.5rem;
+    --desktop-p-font-size: 1.125rem;
+    --mobile-h1-font-size: 3rem;
+    --mobile-p-font-size: 2rem;
+    --mobile-a-font-size: 1.5rem;
+    --font-weight-400: 400;
+    --font-weight-600: 600;
+}
+
+/*Navbar*/
+/*Hero section*/
+/*Footer Social Icons*/
