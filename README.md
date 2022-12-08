@@ -4,8 +4,8 @@ This is a solution to the [Huddle Landing Page challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/SMarukona/Huddle-Landing-Page]
+- Live Site URL: [https://smarukona.github.io/Huddle-Landing-Page/]
 
 ### Screenshot
 
