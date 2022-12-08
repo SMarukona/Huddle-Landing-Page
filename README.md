@@ -2,16 +2,16 @@
 
 This is a solution to the [Huddle Landing Page challenge on Frontend Mentor]
 
+### Links
+
+- Solution URL: []
+- Live Site URL: []
+
 ### Screenshot
 
 ![Desktop]()
 ![Tab]()
 ![Mobile]()
-
-### Links
-
-- Solution URL: []
-- Live Site URL: []
 
 ### Built with
 
