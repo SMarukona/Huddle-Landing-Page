@@ -21,12 +21,13 @@ ul,ol,li{
 /*Custom css*/
 
 :root {
-    --font-familly-poppins: font-family: 'Poppins', sans-serif;
-    --font-family-open-sans: font-family: 'Open Sans', sans-serif;
+    --font-familly-poppins: 'Poppins', sans-serif;
+    --font-family-open-sans: 'Open Sans', sans-serif;
     --primary-color-violet: hsl(257, 40%, 49%);
     --primary-color-soft-magenta: hsl(300, 69%, 71%);
-    --desktop-h1-font-size: 2.5rem;
-    --desktop-p-font-size: 1.125rem;
+    --document-color-white: hsl(0, 0%, 100%);
+    --desktop-h1-font-size: 2.4rem;
+    --desktop-p-font-size: 1rem;
     --mobile-h1-font-size: 3rem;
     --mobile-p-font-size: 2rem;
     --mobile-a-font-size: 1.5rem;
@@ -34,6 +35,107 @@ ul,ol,li{
     --font-weight-600: 600;
 }
 
+
+.container{
+    margin: 0 5rem;
+    max-width: 71.25rem;
+}
+
+.main-nav{
+    background-image: url(images/bg-desktop.svg);
+    background-color: var(--primary-color-violet);
+    background-position: center;
+    padding-bottom: 4rem;
+    
+}
 /*Navbar*/
+.nav-bar{
+    padding-top: 3.75rem;
+    padding-bottom: 5.25rem;
+}
+
+.huddle-logo{
+    width: auto;
+    height: 2.5rem;
+}
 /*Hero section*/
+.main-pic{
+    padding:  0 1rem;
+}
+.main-pic img{
+   width: 35.625rem;
+   height: auto;
+   
+}
+
+.main-intro{
+    display: flex;
+    
+}
+
+.intro-details{
+    padding-left: 2rem;
+    padding-top: 3.125rem;
+}
+.intro-details h1{
+    color: var(--document-color-white);
+    font-family: var(--font-familly-poppins);
+    line-height: 3rem;
+    font-size: var(--desktop-h1-font-size);
+    margin-top: 0;
+    font-weight: var(--font-weight-600);
+}
+.intro-details p{
+    color:  var(--document-color-white);
+    font-family: var(--font-family-open-sans);
+    font-size: var(--desktop-p-font-size);
+    opacity: 0.8;
+    padding-bottom: 1.375rem;
+    font-weight: var(--font-weight-400);
+}
+
+.intro-details a{
+    color: var(--primary-color-violet);
+    background-color: var(--document-color-white);
+    font-family: var(--font-familly-poppins);
+    padding: 1rem 3.6rem;
+    border-radius: 1.875rem;
+    font-weight: var(--font-weight-400);
+    font-size: 1.125rem;
+    text-decoration: none;
+    box-shadow: 0.3rem 0.4rem 0.6rem  hsl(257, 40%, 35%);
+}
+
+.intro-details a:hover{
+    color: var(--document-color-white);
+    background-color:var(--primary-color-soft-magenta);
+    box-shadow: 0.3rem 0.4rem 0.6rem  hsl(257, 40%, 35%);
+}
+
+
 /*Footer Social Icons*/
+.social-nav > li > a > i{
+    width: 1rem;
+    height: 1rem;
+    color: var(--document-color-white);
+    padding: 0.375rem;
+    border: 0.0625rem solid var(--document-color-white);
+    border-radius: 100%;
+}
+
+.social-nav > li > a > i:hover{
+    color: var(--primary-color-soft-magenta);
+    border: 0.0625rem solid var(--primary-color-soft-magenta);
+}
+.social-icons-nav{
+    float: right;
+    
+}
+
+.social-nav > li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+.social-nav > li:nth-child(3){
+    padding-right: 0;
+}
