@@ -26,8 +26,8 @@ ul,ol,li{
     --primary-color-violet: hsl(257, 40%, 49%);
     --primary-color-soft-magenta: hsl(300, 69%, 71%);
     --document-color-white: hsl(0, 0%, 100%);
-    --desktop-h1-font-size: 2.4rem;
-    --desktop-p-font-size: 1rem;
+    --desktop-h1-font-size: 2.5rem;
+    --desktop-p-font-size: 1.125rem;
     --mobile-h1-font-size: 3rem;
     --mobile-p-font-size: 2rem;
     --mobile-a-font-size: 1.5rem;
@@ -37,8 +37,10 @@ ul,ol,li{
 
 
 .container{
-    margin: 0 5rem;
-    max-width: 71.25rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 81.25rem;
+    flex-direction: column;
 }
 
 .main-nav{
@@ -59,24 +61,28 @@ ul,ol,li{
     height: 2.5rem;
 }
 /*Hero section*/
-.main-pic{
-    padding:  0 1rem;
-}
-.main-pic img{
-   width: 35.625rem;
-   height: auto;
-   
-}
-
 .main-intro{
     display: flex;
     
+}
+.hero-same-width{
+    width: 50%;
+}
+.main-pic{
+    padding: 0;
 }
 
 .intro-details{
     padding-left: 2rem;
     padding-top: 3.125rem;
 }
+
+.main-pic img{
+   width: 100%;
+   height: auto;
+   
+}
+
 .intro-details h1{
     color: var(--document-color-white);
     font-family: var(--font-familly-poppins);
@@ -138,4 +144,12 @@ ul,ol,li{
 }
 .social-nav > li:nth-child(3){
     padding-right: 0;
+}
+
+/*Header font size adjustment*/
+
+@media only screen and (max-width: 1080px) {
+    .intro-details h1{
+        font-size: 2.3rem;
+    }
 }
