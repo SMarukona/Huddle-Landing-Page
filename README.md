@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle Landing Page Solution
+# Huddle Landing Page Solution
 
 This is a solution to the [Huddle Landing Page challenge on Frontend Mentor]
 
