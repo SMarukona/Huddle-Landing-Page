@@ -9,9 +9,9 @@ This is a solution to the [Huddle Landing Page challenge on Frontend Mentor]
 
 ### Screenshot
 
-![Desktop]()
-![Tab]()
-![Mobile]()
+![Desktop](images/ss/desktop.png)
+![Tab](images/ss/tab.png)
+![Mobile](images/ss/mobile.png)
 
 ### Built with
 
@@ -19,16 +19,10 @@ This is a solution to the [Huddle Landing Page challenge on Frontend Mentor]
 - CSS custom properties
 - Flexbox
 
-### What I learned
-
-
-### Continued development
-
-
 ## Author
 - Frontend Mentor - [@eewa-SANJ](https://www.frontendmentor.io/profile/eewa-SANJ)
 - Github - [@SMarukona](https://github.com/SMarukona)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Twitter - [@SMarukona](https://twitter.com/SMarukona)
 
 
 
